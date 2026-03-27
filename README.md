@@ -1,59 +1,18 @@
-# customer-churn-analysis-dashboard
-Power BI dashboard analyzing customer churn patterns using demographic, location, gender, and balance segmentation. Includes KPI insights (churn rate, exited customers), data modeling, and DAX measures.
+Built a Power BI dashboard using data from a CSV file, processed and validated in SQL for data cleaning and accuracy.
 
-Customer Churn Analysis Dashboard (Power BI)
+Filters
 
-This Power BI dashboard provides a comprehensive analysis of customer churn, helping identify patterns that contribute to customer exit from a banking environment.
-The report highlights demographic, financial, and behavioral factors related to churn and provides actionable KPIs.
+Partner → Filters customers based on whether they have a partner
+Gender → Filters customers by Male/Female
 
-🔹 Key KPIs
+Findings
 
-Total Customers
+1 - Customers with month-to-month contracts show the highest churn rate (~42.7%), indicating low commitment as a key driver.
 
-Exited Customers
+2 - Customers with higher monthly charges (40–80 range) show increased churn (~32–36%), suggesting pricing sensitivity.
 
-Churn Rate (%)
+3 - Customers using fiber optic internet services have higher churn (~41.9%) compared to DSL and others, indicating possible service or pricing issues.
 
-Average Balance of Exited Customers
+4 - Churn decreases significantly with tenure, showing that long-term customers are more stable.
 
-🔹 Visual Breakdown
-
-Churn by Age Group
-
-Churn by Gender
-
-Churn by Location
-
-Tenure vs Exit Trend
-
-Active vs Inactive Membership
-
-🔹 Tools & Techniques
-
-Microsoft Power BI
-
-DAX (CALCULATE, FILTER, DIVIDE, AVERAGE)
-
-Data Modeling
-
-Data Cleaning
-
-Business Dashboard Design
-
-Segmentation & Trend Analysis
-
-🔹 Business Insights
-
-Young adults show the highest churn levels
-
-Customer balance influences exit behavior
-
-Different locations show different exit patterns
-
-Tenure affects churn likelihood
-
-📁 Project Files
-
-Customer_Churn_Analysis.pbix — full interactive dashboard
-
-screenshots/ — preview images of the report
+Recommendations - Focus on converting customers to long-term contracts, improving pricing strategies, and enhancing service quality to reduce churn.
